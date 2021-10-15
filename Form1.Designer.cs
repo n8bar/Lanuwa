@@ -74,7 +74,7 @@ namespace LANUWA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1203, 680);
+            this.ClientSize = new System.Drawing.Size(348, 105);
             this.Name = "Main";
             this.Text = "Lanuwa";
             this.Load += new System.EventHandler(this.Form1_Load);

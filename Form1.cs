@@ -30,6 +30,8 @@ namespace LANUWA
         private void showToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Show();
+            this.WindowState = FormWindowState.Normal;
+            this.Activate();
         }
 
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,6 +51,8 @@ namespace LANUWA
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             this.Show();
+            this.WindowState = FormWindowState.Normal;
+            this.Activate();
         }
     }
 }
